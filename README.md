@@ -75,6 +75,26 @@ pip install -r requirements.txt
 
 5. You can now use Jupyter Notebooks within Visual Studio Code, and it will use the Python interpreter from the virtual environment.
 
+## Deactivate the Virtual Environment
+
+When you're done working on the project and want to deactivate the virtual environment, follow these steps based on your operating system and the method used to create the virtual environment:
+
+### Virtual environment created with `venv` (Python 3.3+)
+
+#### Windows
+
+To deactivate the virtual environment on Windows, run the following command in the terminal:
+
+```cmd
+deactivate
+```
+#### macOS/Linux
+To deactivate the virtual environment on macOS or Linux, run the following command in the terminal:
+
+ ```sh
+deactivate
+```
+
 ## Libraries and algorithms
 
 This project makes use of the following libraries:
